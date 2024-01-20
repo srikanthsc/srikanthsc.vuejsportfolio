@@ -44,7 +44,7 @@
           <v-row>
             <v-col cols="12" sm="6">
               <div class="egg">
-                <v-img src="i2.png" max-height="300" class=""></v-img>
+                <v-img src="IMG2.png" max-height="300" class=""></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
@@ -139,10 +139,9 @@
       <v-col cols="12" sm="12" id="services">
         <div class="d-flex justify-center mb-6">
           <v-btn color="#FBDF7E" class="mr-2">All</v-btn>
-          <v-btn class="mr-2" variant="tonal">Web Design</v-btn>
-          <v-btn class="mr-2" variant="tonal">Front Design</v-btn>
-          <v-btn class="mr-2" variant="tonal"> Photography</v-btn>
-          <v-btn variant="tonal"> Illustration</v-btn>
+          <v-btn class="mr-2" variant="tonal">Full-Stack Engineer</v-btn>
+          <v-btn class="mr-2" variant="tonal">SAP Software Engineer</v-btn>
+          <v-btn class="mr-2" variant="tonal">Cloud Engineer</v-btn>
         </div>
       </v-col>
       <v-col cols="12" class="imgHover">
@@ -167,12 +166,12 @@
           <v-btn color="#FBDF7E" class="mt-4">Load More</v-btn>
         </div>
       </v-col>
-      <v-col cols="12" id="page">
+      <!-- <v-col cols="12" id="page">
         <div class="pre">
           <v-row>
             <v-col cols="12" sm="4">
               <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="i10.jpg" height="200px" cover></v-img>
+                <v-img src="IMG4.jpg" height="200px" cover></v-img>
 
                 <v-card-title> We provide you the best </v-card-title>
 
@@ -234,7 +233,7 @@
             </v-col>
           </v-row>
         </div>
-      </v-col>
+      </v-col> -->
       <v-col cols="12" sm="12" class="px-16" id="contact">
         <v-row>
           <v-col cols="12" sm="4">
@@ -247,7 +246,7 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">Your Street SYO,yourArea Dream </span
+              <span class="text-caption">Paris, France</span
               ><br />
               <v-btn
                 icon="fas fa-phone-alt"
@@ -256,8 +255,7 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">00235 - 6521 </span> <br />
-              <span class="text-caption">00235 - 6521 </span> <br />
+              <span class="text-caption">0783****** </span> <br />
               <v-btn
                 icon="fas fa-envelope"
                 color=""
@@ -265,19 +263,12 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
+              <span class="text-caption">srikanthcollaty92@gmail.com </span> <br />
             </div>
           </v-col>
           <v-col cols="12" sm="8">
             <h1 class="mt-8">Send your message</h1>
             <v-divider></v-divider>
-            <span class="text-caption"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              fugiat officia, odio eaque exercitationem libero nesciunt placeat,
-              repellat obcaecati sed tenetur! Est labore aliquam amet
-              consequatur necessitatibus fugit obcaecati facilis!</span
-            >
             <v-row class="mt-10">
               <v-col cols="12" sm="6">
                 <v-text-field
@@ -324,22 +315,22 @@ export default defineComponent({
 
       items: [
         {
-          img: "i3.jpg",
+          img: "IMG4.jpg",
         },
         {
-          img: "i4.jpg",
+          img: "IMG5.jpg",
         },
         {
-          img: "i5.jpg",
+          img: "IMG8.jpg",
         },
         {
-          img: "i6.jpeg",
+          img: "IMG7.jpg",
         },
         {
-          img: "i9.jpg",
+          img: "IMG9.jpg",
         },
         {
-          img: "i8.jpg",
+          img: "IMG11.png",
         },
       ],
     };
@@ -386,7 +377,7 @@ export default defineComponent({
   background: black;
   transform: skew(0deg, -6deg);
 }
-.egg {
+/* .egg {
   display: block;
   margin-left: 100px;
   margin-top: 50px;
@@ -394,7 +385,7 @@ export default defineComponent({
   height: 300px;
   background-color: #fbdf7e;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-}
+} */
 .first {
   width: 100%;
   height: 280px;
